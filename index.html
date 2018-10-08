@@ -1,41 +1,24 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Login and Registration Form</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-	<div class="login-page">
-	<div class="form">
-		<form class="registration-form">
-			<input type="text" placeholder="Company's Name"/>
-			<input type="text" placeholder="Email Address"/>
-			<input type="text" placeholder="Username"/>
-			<input type="text" placeholder="Password"/>
-			<button>Create</button>
-			<p class="message">Already registered? <a href="#">Login</a>
-			</p>
-		</form>
+    <div class="loginbox">
+    <img src="logo_size_icon.jpg" class="avatar">
+        <h1>Login Here</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <input type="submit" name="" value="Login">
+            <a href="#">Lost your password?</a><br>
+            <a href="#">Don't have an account?</a>
+        </form>
+        
+    </div>
 
-		<form class="login-form">
-			<input type="text" placeholder="username"/>
-			<input type="text" placeholder="password"/>
-			<button>login</button>
-			<p class="message">Not registered? <a href="#">Register</a>
-			</p>
-		</form>
-	</div>
-	</div>
-	<script src='https://code.jquery.com/jquery-3.3.1.min.js'>
-	</script>
-
-	<script>
-		$('.message a').click(function(){
-			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-		});
-		
-
-	</script>
 </body>
+</head>
 </html>
 	
