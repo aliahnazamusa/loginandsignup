@@ -1,6 +1,6 @@
 body{
 	background-image: url(logo_size_icon.jpg);
-	height: 100vh;
+	height: 50vh;
 	background-size: cover;
 	background-position: center;
 
@@ -54,7 +54,7 @@ body{
 
 .form .message{
 	margin: 15px 0 0;
-	color: #808080;
+	color: #000000;
 	font-size: 12px;
 }
 
